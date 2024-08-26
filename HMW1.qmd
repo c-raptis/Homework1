@@ -1,0 +1,36 @@
+---
+title: "Science of data"
+format: html
+editor: visual
+---
+
+# Chapter 1: Questions
+
+-   **Q1. What do you think being a data scientist is about?** I like how data scientists can find the "light" in vasts amounts of data, most of the time unstructured data! There are a lot of skills to it!
+
+-   **Q2. What differences/similarities do you see between data scientists and statisticians?** I would say that the biggest difference between the two is that data scientists deal with unstructured data most of the time and need to clean and analyze the data with different tools, while statisticians work with already structured data and are more analytical and it is more about math.
+
+-   **Q3. How do you view yourself in relation to these two areas?** A mix of both would be appropriate, just because I have experience in programming, using machine learning, but now I'm pursuing a minor in statistics and I feel that I'm very theory-driven.
+
+# Chapter 2: R code
+
+R code:
+
+```{r}
+y <- density(iris$Petal.Width)
+```
+
+Here I am determining the class, type and structure of the object y. I found out that y is the density.
+
+```{r}
+class(y)
+typeof(y)
+str(y)
+```
+
+Now I can visualize the density plot, with echo in false to hide the R code.
+
+```{r}
+#| echo: false
+plot(y)
+```

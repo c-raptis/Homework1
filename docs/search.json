@@ -1,0 +1,9 @@
+[
+  {
+    "objectID": "HMW1.html",
+    "href": "HMW1.html",
+    "title": "Science of data",
+    "section": "",
+    "text": "Chapter 1: Questions\n\nQ1. What do you think being a data scientist is about? I like how data scientists can find the “light” in vasts amounts of data, most of the time unstructured data! There are a lot of skills to it!\nQ2. What differences/similarities do you see between data scientists and statisticians? I would say that the biggest difference between the two is that data scientists deal with unstructured data most of the time and need to clean and analyze the data with different tools, while statisticians work with already structured data and are more analytical and it is more about math.\nQ3. How do you view yourself in relation to these two areas? A mix of both would be appropriate, just because I have experience in programming, using machine learning, but now I’m pursuing a minor in statistics and I feel that I’m very theory-driven.\n\n\n\nChapter 2: R code\nR code:\n\ny &lt;- density(iris$Petal.Width)\n\nHere I am determining the class, type and structure of the object y. I found out that y is the density.\n\nclass(y)\n\n[1] \"density\"\n\ntypeof(y)\n\n[1] \"list\"\n\nstr(y)\n\nList of 7\n $ x        : num [1:512] -0.656 -0.648 -0.64 -0.633 -0.625 ...\n $ y        : num [1:512] 0.00163 0.0018 0.00199 0.00219 0.00241 ...\n $ bw       : num 0.252\n $ n        : int 150\n $ call     : language density.default(x = iris$Petal.Width)\n $ data.name: chr \"iris$Petal.Width\"\n $ has.na   : logi FALSE\n - attr(*, \"class\")= chr \"density\"\n\n\nNow I can visualize the density plot, with echo in false to hide the R code."
+  }
+]
